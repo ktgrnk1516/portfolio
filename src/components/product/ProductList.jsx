@@ -8,7 +8,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inpire.</h1>
+        <h1 className="pl-title">Create & Inspire.</h1>
         <p className="pl-desc">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
           aliquam! Consequuntur error sapiente accusamus est dolore eligendi
