@@ -8,16 +8,14 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & Inspire.</h1>
+        <h1 className="pl-title">Works</h1>
         <p className="pl-desc">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
-          aliquam! Consequuntur error sapiente accusamus est dolore eligendi
-          sint molestiae maxime.
+          個人開発したアプリを紹介します。
         </p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product key={item.id} img={item.img} link={item.link} desc={item.desc}/>
         ))}
       </div>
     </div>

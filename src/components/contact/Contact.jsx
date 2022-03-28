@@ -34,28 +34,26 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Contact</h1>
 
           <div className="c-info">
             <div className="c-info-item">
               <i className="bx bx-phone-call"></i>
-              +81 070-0000-0000
+              +81 070-2673-4167
             </div>
             <div className="c-info-item">
               <i className="bx bxs-message-square-dots"></i>
-              portfolio@gmail.com
+              katagirio1516@gmail.com
             </div>
             <div className="c-info-item">
               <i className="bx bxs-home"></i>
-              Tokyo,Kangawa
+              Tokyo/Japan
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Lorem ipsum dolor sit amet.</b> Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Velit aut facilis similique nam
-            obcaecati blanditiis in tempora.
+            <b>Contact Form</b>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

@@ -12,21 +12,19 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">My Portfolio </h2>
-          <h1 className="i-name">( ´∀｀)</h1>
+          <h2 className="i-name">N.K's Portfolio</h2>
+          <h2 className="i-intro">Skills</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">PhotoGrapher</div>
-              <div className="i-title-item">〇〇</div>
-              <div className="i-title-item">〇〇</div>
-              <div className="i-title-item">〇〇</div>
+              <div className="i-title-item">HTML/CSS/JS</div>
+              <div className="i-title-item">React/Redux</div>
+              <div className="i-title-item">Next.js/Vercel</div>
+              <div className="i-title-item">Firebase</div>
+              <div className="i-title-item">Graph QL</div>
             </div>
           </div>
-          <p className="i-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            quia veritatis quos exercitationem porro praesentium.
-          </p>
+          {/* <h3 className="i-intro">About Me</h3> */}
+          <p className="i-desc">はじめまして。フロントエンドエンジニアのN.Kです。個人開発したWebアプリケーションの紹介をするサイトです。</p>
         </div>
       </div>
       <div className="i-right">

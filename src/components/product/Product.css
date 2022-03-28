@@ -36,9 +36,20 @@
   transform: translateY(-100%);
 }
 
+.p-span {
+  font-size: 1px;
+  opacity: 0.8;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
   .p {
     width: 40%;
-    height: 20vh;
+    height: 18vh;
+  }
+  .p-span {
+   display: none;
   }
 }
