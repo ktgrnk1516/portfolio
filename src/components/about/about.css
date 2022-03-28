@@ -14,6 +14,7 @@
 }
 .a-right {
   flex: 1;
+  margin-right: 40px;
 }
 
 .a-card.bg {
@@ -102,5 +103,6 @@ i {
 
   .a-right {
     padding: 20px;
+    margin-right: 0px;
   }
 }
