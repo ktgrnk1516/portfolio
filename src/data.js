@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://drive.google.com/uc?id=1hEz8rKqzMZAvQALSg_SLo096Q6w_b_M_",
+    img: "https://drive.google.com/uc?id=1YrunjELH6FhdCFgCD0MqlhU99dq2k-v3",
     desc: "React/Material-UI/Material-icons/Firebase",
     link: "https://m-invoice.web.app/",
   },

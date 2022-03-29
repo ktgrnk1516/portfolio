@@ -24,7 +24,9 @@ const Intro = () => {
             </div>
           </div>
           {/* <h3 className="i-intro">About Me</h3> */}
+          <div className="i-desc-wrapper">
           <p className="i-desc">はじめまして。フロントエンドエンジニアのN.Kです。個人開発したWebアプリケーションの紹介をするサイトです。</p>
+          </div>
         </div>
       </div>
       <div className="i-right">
